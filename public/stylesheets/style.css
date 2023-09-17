@@ -10,7 +10,7 @@ html, body {
 body {
   background-image: url('../images/anotherbackground2.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center;   
   background-repeat: no-repeat;
 }
 #main{
@@ -81,9 +81,18 @@ a {
   height: 10px; 
 }
 
+#logo{
+  margin: -35px 5px -35px -20px;
+}
+
 #image-logo{
   width: 100px;
   height: 80px;
-  margin: -25px -5px -25px 0px;
   border-radius: 20%;
+}
+
+#image-logo:hover{
+  transform: scale(2);
+  transform-origin: top left;
+  transition: 1s;
 }
